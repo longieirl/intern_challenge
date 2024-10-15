@@ -75,18 +75,18 @@ id,name,email,position,salary
 ```
 
 ### Additional notes/links:
-Notes;
+Notes: </br>
 Look at using `nodemon` to handle refreshing your app when you make changes.
 
-Links;
-https://nodejs.org/en/download/package-manager
-https://www.npmjs.com/package/csv-parser
-https://www.npmjs.com/package/express
+Links: </br>
+https://nodejs.org/en/download/package-manager  </br>
+https://www.npmjs.com/package/csv-parser  </br>
+https://www.npmjs.com/package/express  </br>
 
-### Common Errors;
+### Common Errors:
 
 `SyntaxError: Cannot use import statement outside a module`</br> 
-Solution: Update the package.json with `"type": "module"
+Solution: In `package.json` append `"type": "module"
 
 `Error: listen EADDRINUSE: address already in use :::5000` </br>
 Solution: Edit your entry file e.g. index.js and change the port to a unique value
@@ -102,7 +102,7 @@ Solution: Ensure the project `package.json` is updated with `"type": "module"`, 
   "type": "module",
   ...
 ```
-The `module` type forces your project to use `import fs from 'fs';` instead of `const fs = require('fs')` when consuming third party libraries.
+The `module` type forces your project to use `import fs from 'fs';` instead of `const fs = require('fs');` when consuming third-party libraries.
 
 ### Submission:
 - Create a GitHub repository for your code.
