@@ -4,12 +4,14 @@
 
 Welcome to your coding challenge!
 
-The goal is to read data from a CSV file, load it into an in-memory data structure, and expose a RESTful API to perform basic CRUD operations on the data. This challenge will help you get familiar with working with `Node.js`, Express, and handling file operations.
+Note: Feel free to use `AI` to generate the project! Understanding fundamental concepts is crucial as we are not assessing your `Copy and Paste` skills!
+
+The goal is to read data from a CSV file, load it into an in-memory data structure, and expose a RESTful API to perform basic CRUD operations on the data. This challenge will help you get familiar with working with `Node.js`, `Express` and handling file operations.
 
 **Challenge Requirements**:
 
 1. **Read Data from a CSV File**:
-    - You'll generate a CSV file named `data.csv` containing information about "employees". The CSV file will have the following columns:
+    - You'll generate a CSV file named `data.csv` containing information about `employees`. The CSV file will have the following columns:
         - `id` (number, unique)
         - `name` (string)
         - `email` (string)
@@ -30,7 +32,7 @@ The goal is to read data from a CSV file, load it into an in-memory data structu
 
 4. **Additional RESTful API endpoints (Optional)**:
    - Create a RESTful API using `Node.js` and `Express` to perform CRUD operations on the employee data. The API should support the following endpoints:
-   - **GET /employees/:id**: Retrieve details of a specific employee by their ID.
+   - **GET /employees/:id**: Retrieve details of a specific employee by their ID
 
 
 5. **Data Validation (Optional)**:
@@ -42,7 +44,7 @@ The goal is to read data from a CSV file, load it into an in-memory data structu
     - If validation fails, return a `400 Bad Request` with an appropriate error message.
 
 
-6. **Unit Tests (Optional)**:
+6. **Unit Tests (Optional)**: 
     - `Jest` is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
     - Refer to https://jestjs.io/docs/getting-started
 
@@ -64,7 +66,7 @@ The goal is to read data from a CSV file, load it into an in-memory data structu
     - Implement code to set up the `Express` server to render the data to the frontend e.g. when `http://localhost:5000` is called, it returns the data in JSON format.
 
 3. **Test Your Endpoints**:
-    - Use a tool like Postman or curl to test the REST API endpoints.
+    - Use a tool like `Postman` or `curl` to test the REST API endpoints.
 
 ### Sample `data.csv` Content:
 ```csv
@@ -86,7 +88,7 @@ https://www.npmjs.com/package/express  </br>
 ### Common Errors:
 
 `SyntaxError: Cannot use import statement outside a module`</br> 
-Solution: In `package.json` append `"type": "module"
+Solution: In `package.json` append `"type": "module"`
 
 `Error: listen EADDRINUSE: address already in use :::5000` </br>
 Solution: Edit your entry file e.g. index.js and change the port to a unique value
