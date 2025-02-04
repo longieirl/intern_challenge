@@ -4,7 +4,7 @@
 
 Welcome to your coding challenge!
 
-Note: Feel free to use `AI` to generate the project! Understanding fundamental concepts is crucial as we are not assessing your `Copy and Paste` skills!
+Note: Feel free to use `AI` to generate the project! Understanding fundamental concepts is crucial as we are not assessing your `Copy and Paste` skills! Stand out, catch attention and comment honestly! Try to apply the rule, `Stop using AI without knowing how to use AI`, and leverage it's power to advance your project! 
 
 The goal is to read data from a CSV file, load it into an in-memory data structure, and expose a RESTful API to perform basic CRUD operations on the data. This challenge will help you get familiar with working with `Node.js`, `Express` and handling file operations.
 
@@ -45,7 +45,7 @@ The goal is to read data from a CSV file, load it into an in-memory data structu
 
 
 6. **Unit Tests (Optional)**: 
-    - `Jest` is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+    - `Jest` is a JavaScript testing framework designed to ensure the correctness of any JavaScript codebase.
     - Refer to https://jestjs.io/docs/getting-started
 
 ### Deliverables:
@@ -56,7 +56,7 @@ The goal is to read data from a CSV file, load it into an in-memory data structu
 ### Getting Started:
 1. **Initialize a new `Node.js` project**:
     - Create a new project folder e.g. `internchallenge_myname`
-    - Change into the new project folder and run `npm init` to create a new `Node.js` project, accept all other defaults during the prompting.
+    - Change into the new project folder and run `npm init` to create a new `Node.js` project, and accept all other defaults during the prompting.
     - Install the necessary dependencies (`express` for the web framework and a CSV parsing library like `csv-parser`).
     - You do not need to install `fs` since this component is part of the `Node.js` framework.
 
